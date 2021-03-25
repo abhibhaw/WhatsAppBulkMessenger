@@ -9,17 +9,13 @@ from time import sleep
 # %%from pyvirtualdisplay import Display
 # display = Display(visible=0, size=(800, 600))
 # display.start()
-
+#main > footer > div.vR1LG._3wXwX.copyable-area > div:nth-child(3)
 #update css selector if you have any issues
 css_selector = "#main > footer > div._3ee1T._1LkpH.copyable-area > div._3uMse > div > div._3FRCZ.copyable-text.selectable-text"
 
 # message to be sent to everyone, you can also read it as a dict from a file with ph nos as keys
 msg = '''
-You can try all sorts of formatting like _italics_ and *bold* or _*bold italics*_. 
-
-Multiline works too.
-
-And so do links like https://google.com!
+Hey, How are you?
 '''     
 
 driver = webdriver.Chrome()
