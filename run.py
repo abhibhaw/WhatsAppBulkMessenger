@@ -11,7 +11,7 @@ from time import sleep
 # display.start()
 #main > footer > div.vR1LG._3wXwX.copyable-area > div:nth-child(3)
 #update css selector if you have any issues
-css_selector = "#main > footer > div.vR1LG._3wXwX.copyable-area > div._2A8P4 > div > div._2_1wd.copyable-text.selectable-text"
+css_selector = "#main > footer > div._2BU3P.tm2tP.copyable-area > div > span:nth-child(2) > div > div._2lMWa > div.p3_M1 > div > div._13NKt.copyable-text.selectable-text"
 
 # message to be sent to everyone, you can also read it as a dict from a file with ph nos as keys
 msg = '''
